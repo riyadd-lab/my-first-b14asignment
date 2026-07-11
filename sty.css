@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.ri-rk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    background-color: aliceblue;
+}
+.rii-rk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.rii-rk img{
+    width: 100px;
+}
+.riii-rk{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    position: absolute;
+    left: 50%;
+transform: translateX(-50%);
+}
+.riii-rk li a{
+    text-decoration: none;
+    color: rgb(249, 162, 60);
+    font-size: 14px;
+}
+.riii-rk li a:hover{
+    color: rgb(171, 193, 171);
+}
+.riv-rk a{
+    padding: 10px 20px;
+    background-color: rgb(245, 139, 56);
+    color: rgb(59, 52, 43);
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.riv-rk a:hover{
+    color: rgb(163, 157, 149);
+    background-color: rgb(35, 39, 38);
+    font-weight: 550;
+}
+.hero-sec{
+    width: 100%;
+    height: 650px;
+    background-image: url(./conference.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ir-bk{
+    font-size: 30px;
+    color: rgb(243, 243, 248);
+    text-align: center;
+    padding-top: 10%;
+}
+.irr-bk{
+    color: rgb(243, 243, 248);
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 200px;
+}
+.irrr-bk {
+    padding: 10px 20px;
+    background-color: rgb(245, 139, 56);
+    color: rgb(59, 52, 43);
+    border-radius: 8px;
+    background-attachment: fixed;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.irrr-bk a{
+    text-decoration: none;
+}
+.irrr-bk a:hover{
+    color: rgb(171, 193, 171);
+    font-weight: 550;
+}
