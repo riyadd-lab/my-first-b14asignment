@@ -222,3 +222,53 @@ transform: translateX(-50%);
     margin-top: 28px;
 }
 /* section 2 complete */
+/* Section */
+.trk-bk {
+    padding: 80px 20px;
+    background: #f9fafb;
+    text-align: center;
+}
+
+.trk-bk h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.pk-bk {
+    color: #666;
+    margin-bottom: 40px;
+}
+.trkk-bk {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.trkkk-bk {
+    width: 300px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+.trkkk-bk img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.ktr-bk {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.trkkk-bk h3 {
+    margin-bottom: 5px;
+}
+.trkkk-bk span {
+    font-size: 13px;
+    color: #777;
+}
